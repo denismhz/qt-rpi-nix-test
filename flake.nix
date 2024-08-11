@@ -13,7 +13,7 @@
           inputsFrom = [ config.packages.default ];
           buildInputs = with pkgs; [
             gdb
-            qtcreator
+            qtcreator-qt6
 
             # this is for the shellhook portion
             qt6.wrapQtAppsHook

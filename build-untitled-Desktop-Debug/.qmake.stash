@@ -1,0 +1,21 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201703L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 12
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/include/c++/12.2.0 \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/include/c++/12.2.0/x86_64-unknown-linux-gnu \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/include/c++/12.2.0/backward \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/lib/gcc/x86_64-unknown-linux-gnu/12.2.0/include \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/include \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/lib/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed \
+    /nix/store/hkj250rjsvxcbr31fr1v81cv88cdfp4l-glibc-2.37-8-dev/include
+QMAKE_CXX.LIBDIRS = \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/lib/gcc/x86_64-unknown-linux-gnu/12.2.0 \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/lib64 \
+    /nix/store/b7hvml0m3qmqraz1022fwvyyg6fc1vdy-gcc-12.2.0/lib
